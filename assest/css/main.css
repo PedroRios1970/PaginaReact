@@ -356,4 +356,117 @@ input[type="text"]:focus{
 .article-item .article-detail{
     margin-top: 10px;
 }
- 
+
+
+/*Responsive*/ 
+
+/*Desde la anchura 0 px hasta la anchura 1488px de pantalla*/
+@media(max-width:1120px){
+    .center{
+        width:85%;
+
+
+    }
+}
+
+@media(max-width:1010px){
+    .center{
+        width:95%;
+    }
+
+    #menu ul{
+            width: auto;
+    }
+    
+}
+
+@media(max-width:881px){
+    
+    #logo{
+        float: none;
+        width:255px;        
+        margin:0px auto;
+        margin-top: 20px;
+
+    }
+
+
+    #menu,
+    #menu ul{
+        clear:both;
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;        
+        line-height:43px;
+    }
+
+    #content{
+        float: none;
+        width: 100%;
+    }
+
+    #sidebar{
+        float: none;
+        width: 60%;
+        margin: 0px auto;
+        margin-bottom: 50px;
+
+    }
+
+    #slider h1{
+        padding-top: 115px;
+        font-size: 25px;
+
+    }
+
+    .mid-form{
+        width: 70%;        
+    }
+
+   
+    
+}
+
+@media(max-width:401px){
+    #header{
+        min-height: 130px;
+        overflow: hidden;
+    }
+
+    #menu,
+    #mneu ul{
+        line-height: 50px;
+    }
+
+    #menu,
+    #mneu ul li{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    #slider{
+        height: 130px;
+    }
+
+    #slider h1{
+        font-size: 19px;
+        padding-top: 30px;
+    }
+
+    #slider .btn_white {            
+        margin-top: 10px;
+        padding: 5px;
+        
+    }
+
+    #slider .slider-small {
+        height: 100px;
+        
+    }
+
+    #slider .slider-small h1{
+        padding-top: 35px;
+        
+    }
+}
