@@ -435,12 +435,12 @@ input[type="text"]:focus{
     }
 
     #menu,
-    #mneu ul{
+    #menu ul{
         line-height: 50px;
     }
 
     #menu,
-    #mneu ul li{
+    #menu ul li{
         margin-left: 7px;
         margin-right: 7px;
     }
