@@ -1,0 +1,29 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('bbdd_origen');
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+//db.sales.drop();
+
+// Insert a few documents into the sales collection.
+db.users.insertMany([
+/* 
+Aqui tienes que poner los datos del objeto json
+
+Ejemplo:
+
+"actor_id":"1","first_name":"PENELOPE","last_name":"GUINESS","last_update":"2006-02-15 04:34:33"},
+{"actor_id":"2","first_name":"NICK","last_name":"WAHLBERG","last_update":"2006-02-15 04:34:33"}
+
+*/
+]);
+
+// Run the aggregation and open a cursor to the results.
+// Use toArray() to exhaust the cursor to return the whole result set.
+// You can use hasNext()/next() to iterate through the cursor page by page.
+//db.users.aggregate(aggregation);
